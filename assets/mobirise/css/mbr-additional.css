@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Anton:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Acme:400&display=swap);
 
 
@@ -12,12 +11,12 @@ body {
   font-family: IBM Plex Sans;
 }
 .display-1 {
-  font-family: 'Anton', sans-serif;
-  font-size: 3.4rem;
+  font-family: 'Acme', sans-serif;
+  font-size: 4.8rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 4.25rem;
+  font-size: 6rem;
 }
 .display-2 {
   font-family: 'Acme', sans-serif;
@@ -58,14 +57,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 2.72rem;
+    font-size: 3.84rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.38rem;
-    font-size: calc( 1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.36rem;
+    font-size: calc( 2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.33rem + (4.8 - 2.33) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -715,15 +714,15 @@ a {
   transition: color 0.6s;
 }
 .cid-s48MCQYojq {
-  background-image: url("../../../assets/images/ptz-slide-212704252-1900-800-1900x800.jpg");
+  background-image: url("../../../assets/images/cctv-leeds-1024x423.jpg");
 }
 .cid-s48MCQYojq .mbr-section-title {
   text-align: left;
-  color: #07050f;
+  color: #fafafa;
 }
 .cid-s48MCQYojq .mbr-text,
 .cid-s48MCQYojq .mbr-section-btn {
-  color: #000000;
+  color: #fafafa;
   text-align: left;
 }
 @media (max-width: 991px) {
@@ -1765,7 +1764,7 @@ a {
 .cid-si7o9Bb2AM {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/slider-services-background-1920x850.jpg");
 }
 .cid-si7o9Bb2AM .top-line {
   display: flex;
@@ -1803,7 +1802,7 @@ a {
   }
 }
 .cid-si7o9Bb2AM .mbr-section-title {
-  color: #2299aa;
+  color: #fafafa;
 }
 .cid-sgu9F6RJfP {
   z-index: 1000;
